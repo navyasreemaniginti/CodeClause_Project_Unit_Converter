@@ -1,0 +1,108 @@
+body {
+    padding-top: 20px;
+    background-color:white ;
+  }
+  
+  h1 {
+    color: rgb(218, 74, 98);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing:0.5px; 
+    font-weight: 700;
+  }
+  
+  .box{
+    background-color: black;
+    margin: 0 auto;
+    width: 700px;
+    height: 300px;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 1px 1px 14px black;
+  }
+  
+  .box input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    height: 40px;
+    box-sizing: border-box;
+  }
+  
+  .box span {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  .box span select {
+    background-color: grey;
+    color: #fff;
+    font-size: inherit;
+    padding: 10px;
+    width: 100%;
+    border: 0;
+    margin: 0;
+    border-radius: 0px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: none; /* hide default arrow in chrome OSX */
+  }
+  
+  .box span::before,
+  .box span::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .box span::after { 
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.5em;
+    top: 50%;
+    margin-top: -.5em;
+    color: rgb(58, 42, 42);;
+  }
+  
+  .box span::before { 
+    width: 2.5em;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+    background-color: rgb(58, 42, 42);
+  }
+  
+  .side1,
+  .side2 {
+    float: left;
+    margin-top: 10px;
+    box-sizing: border-box;
+    width: 45%;
+  }
+  
+  .equalsto {
+    float: left;
+    box-sizing: border-box;
+    width: 10%;
+    color: #FFF;
+    font-size: 2.4em;
+    line-height: 0;
+    text-align: center;
+  }
+  
+  .side1 {
+    padding-right: 10px;
+  }
+  
+  .side2 {
+    padding-left: 10px;
+  }
